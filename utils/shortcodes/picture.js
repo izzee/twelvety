@@ -129,7 +129,7 @@ module.exports = function(src, alt, sizes = '90vw, (min-width: 1280px) 1152px', 
 
   // Responsive picture with srcset and native lazy loading
   const picture = `
-    <picture style="background-color:${color};padding-bottom:${ratio}%" class="${class}">
+    <picture style="background-color:${color};padding-bottom:${ratio}%">
       <source srcset="${webpFormatDesc.join(',')}" sizes="${sizes}" type="image/webp">
       <source srcset="${sameFormatDesc.join(',')}" sizes="${sizes}" type="image/${format}">
       <img src="${fallback}" alt="${alt}" loading="${loading}">
