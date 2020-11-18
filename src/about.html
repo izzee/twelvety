@@ -14,7 +14,9 @@
 
   <div class="principal-wrapper grid-5">
     <h4>Meet the Team</h4>
-          {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    <div class="avatar">
+      {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
 
     <div class="principal-content">
       <p>ARTHUR D. CHABON</p>
@@ -26,36 +28,50 @@
 
   <div class="team-wrapper grid-5">
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>LINDA FACCI</p>
       <p>Office Manager</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>KRISTIN ZIEGLER</p>
       <p>AIA, LEED AP</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>KIN MING HUANG</p>
       <p>Senior Architect</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>MATTHEW PAUL CAIRO</p>
       <p>Senior Architect</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>ADRIENNE MERHEB</p>
       <p>Senior Architect</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>JOEY ZHOU</p>
     </div>
     <div class="team-member">
+    <div class="avatar">
       {% picture 'arthurchabon.jpg', 'Alt text', '90vw', 'lazy' %}
+    </div>
       <p>ADAM CASTIGLIONE</p>
     </div>
   </div>
@@ -103,6 +119,7 @@
     height: auto;
     object-fit: cover;
     border-radius: 100%;
+    overflow: hidden;
   }
 
   .principal-wrapper {
