@@ -33,6 +33,8 @@ module.exports = function (config) {
     strict_variables: true
   })
 
+  config.addPassthroughCopy("fonts");
+
   // Set instance of markdown-it so we can add our own plugin
   // Documentation: https://www.11ty.dev/docs/languages/markdown/#add-your-own-plugins
   config.setLibrary('md', markdown)

@@ -209,10 +209,10 @@ The `picture` shortcode outputs a responsive picture element with WebP support. 
 
 ```html
 <!-- Picture shortcode with src, alt, sizes and loading -->
-{% picture 'car.jpg', 'Panning photo of grey coupe on road', '90vw', 'eager' %}
+<!-- {% picture 'car.jpg', 'Panning photo of grey coupe on road', '90vw', 'eager' %} -->
 
 <!-- Absolute paths also work -->
-{% picture '/src/_assets/images/car.jpg', 'Panning photo of grey coupe on road', '90vw', 'eager' %}
+<!-- {% picture '/src/_assets/images/car.jpg', 'Panning photo of grey coupe on road', '90vw', 'eager' %} -->
 
 <!-- Output of shortcode -->
 <picture style="background-color:rgb(38%,28%,26%);padding-bottom:50.000%">
